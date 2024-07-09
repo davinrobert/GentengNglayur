@@ -7,18 +7,18 @@ function About(){
             </div>
             <div className="grid grid-cols-3 gap-8 pt-[130px] ps-[67px] pr-[67px] pb-[150px]" >
                 <div>
-                    <img src="src\assets\residence.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
+                    <img src="/assets/residence.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
                 </div>
                 <div>
-                    <img src="src\assets\school.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
+                    <img src="/assets/school.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
                 </div>
                 <div>
-                    <img src="src\assets\workship.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
+                    <img src="/assets/workship.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
                 </div>
             </div>
             <div className="flex size-[560px 780px] ps-[67px] pt-[150px] pb-[155px]">
                 <div>
-                    <img src="src\assets\build.png" alt="" />
+                    <img src="/assets/build.png" alt="" />
                 </div>
                 <div className="text-left pt-[190px] ps-[116px]">
                     <h1 className="text-[68px] font-semibold">Build your dream</h1>
@@ -36,7 +36,7 @@ function About(){
                     <p className="text-[32px] pt-[51px] font-semibold text-[#0073FF]" >ONE DAY SHIPPING PROCESS.</p>
                 </div>
                 <div>
-                    <img src="src\assets\shipping.png" alt="" />
+                    <img src="/assets/shipping.png" alt="" />
                 </div>
             </div>
         </section>
