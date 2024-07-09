@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <section className="container grid grid-cols-2 justify-center items-center h-[100vh]" id="home">
@@ -12,9 +14,15 @@ function Home() {
         </div>
         <div className="w-full mt-[94px] flex justify-start">
           <button className="flex justify-center items-center gap-5 text-4xl font-bold text-[#0073FF]">
+            <Link to={"contactpage"} className="flex items-center gap-5">
             CONTACT NOW
             <img src="src\assets\arrow.svg" />
+            </Link>
           </button>
+          {/* <button className="flex justify-center items-center gap-5 text-4xl font-bold text-[#0073FF]">
+            CONTACT NOW
+            <img src="src\assets\arrow.svg" />
+          </button> */}
         </div>
       </div>
       <div className="pt-[336px]">

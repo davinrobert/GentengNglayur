@@ -6,7 +6,7 @@ function Header (){
                 <span className="font-normal">Nglayur</span>
             </div>
             <div className="flex gap-[60px] text-[30px] ">
-                <div className="font-semibold">
+                <div className="font-mediun text-[#787878]">
                     <a href="#home">Home</a>
                 </div>
                 <div className="font-medium text-[#787878]">

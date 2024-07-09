@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import Footer from "./pages/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Help from "./pages/help";
+import Contactpage from "./pages/contactpage";
 
 function App() {
   function MainPage() {
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/help" element={<Help />} />
+          <Route path="/contactpage" element={<Contactpage />} />
         </Routes>
       </BrowserRouter>
     </section>
