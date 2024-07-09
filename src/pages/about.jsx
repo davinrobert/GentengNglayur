@@ -1,3 +1,5 @@
+import residence from "../assets/residence.png"
+
 function About(){
     return (
         <section className="container pt-[130px]" id="about">
@@ -7,7 +9,7 @@ function About(){
             </div>
             <div className="grid grid-cols-3 gap-8 pt-[130px] ps-[67px] pr-[67px] pb-[150px]" >
                 <div>
-                    <img src="/assets/residence.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
+                    <img src={residence} alt="" className="w-full max-h-[540px] max-w-[440px]"/>
                 </div>
                 <div>
                     <img src="/assets/school.png" alt="" className="w-full max-h-[540px] max-w-[440px]"/>
