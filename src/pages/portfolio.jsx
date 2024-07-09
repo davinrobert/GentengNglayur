@@ -1,11 +1,11 @@
-import port1 from "../assets/port1"
-import port2 from "../assets/port2"
-import port3 from "../assets/port3"
-import port4 from "../assets/port4"
-import port5 from "../assets/port5"
-import port6 from "../assets/port6"
-import port7 from "../assets/port7"
-import port8 from "../assets/port8"
+import port1 from "../assets/port1.png"
+import port2 from "../assets/port2.png"
+import port3 from "../assets/port3.png"
+import port4 from "../assets/port4.png"
+import port5 from "../assets/port5.png"
+import port6 from "../assets/port6.png"
+import port7 from "../assets/port7.png"
+import port8 from "../assets/port8.png"
 
 function Portfolio(){
     return(

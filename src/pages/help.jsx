@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import build from "../assets/build"
+import build from "../assets/build.png"
 
 const Help = () => {
   return (
