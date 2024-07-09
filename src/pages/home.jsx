@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import arrow from "../assets/arrow.svg"
+import banner from "../assets/banner-img.png"
 
 function Home() {
   return (
@@ -16,17 +18,13 @@ function Home() {
           <button className="flex justify-center items-center gap-5 text-4xl font-bold text-[#0073FF]">
             <Link to={"contactpage"} className="flex items-center gap-5">
             CONTACT NOW
-            <img src="src\assets\arrow.svg" />
+            <img src={arrow} />
             </Link>
           </button>
-          {/* <button className="flex justify-center items-center gap-5 text-4xl font-bold text-[#0073FF]">
-            CONTACT NOW
-            <img src="src\assets\arrow.svg" />
-          </button> */}
         </div>
       </div>
       <div className="pt-[336px]">
-        <img src="src\assets\banner-img.png"/>
+        <img src={banner}/>
       </div>
     </section>
   );

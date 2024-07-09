@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import arrow from "../assets/arrow.svg"
+import shipping from "../assets/shipping.png"
 
 const Contactpage = () => {
     const [name, setName] = useState('');
@@ -61,13 +63,13 @@ const Contactpage = () => {
                         <div className="pt-[56px] flex justify-center items-center text-4xl font-bold text-[#0073FF]">
                             <button className="flex items-center gap-5" onClick={sendToWhatsApp}>
                                 CONTACT NOW
-                                <img src="src/assets/arrow.svg" alt="arrow"/>
+                                <img src={arrow} alt="arrow"/>
                             </button>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <img src="src/assets/shipping.png" alt=""/>
+                    <img src={shipping} alt=""/>
                 </div>
             </div>
             <div className="text-left text-[32px] font-bold text-[#0073FF] pb-[96px]">

@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import arrow from "../assets/arrow.svg"
+import about from "../assets/about.png"
 
 function Contact(){
     return(
@@ -10,13 +12,13 @@ function Contact(){
                 <button>
                     <Link to={"contactpage"} className="flex items-center gap-5">
                     CONTACT NOW
-                    <img src="src\assets\arrow.svg" />
+                    <img src={arrow} />
                     </Link>
                 </button>
             </div>
 
             <div className="pt-[86px]">
-                <img src="src\assets\about.png" alt="" />
+                <img src={about} alt="" />
             </div>           
         </section>
         

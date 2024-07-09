@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import build from "../assets/build"
 
 const Help = () => {
   return (
@@ -21,7 +22,7 @@ const Help = () => {
           </div>
         </div>
         <div>
-          <img src="src\assets\build.png" alt="" />
+          <img src={build} alt="" />
         </div>
       </div>
       <div className="text-left text-[32px] font-bold text-[#0073FF] pb-[96px]">
